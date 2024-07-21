@@ -1,0 +1,51 @@
+.hidden {
+  display: none;
+}
+#page-right  {
+  float:right;
+  margin: 0;
+  display: inline
+}
+td a{
+  padding: 10px
+}
+footer p {
+  margin: 32px auto;
+}
+*{
+	list-style: none;
+}
+#courseSnoInput,#courseNum,#courseInput{
+            width: 200px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        #courseSelect {
+            width: 200px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] ,#cancelCourseBtn{
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
